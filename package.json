@@ -1,0 +1,13 @@
+{
+  "name": "wheat-admin",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve:dev": "pnpm -dir=./packages/admin-service run dev",
+    "web:dev": "pnpm -dir=./packages/admin-web run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
