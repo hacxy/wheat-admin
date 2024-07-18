@@ -2,7 +2,14 @@
 
 全栈使用 TypeScript 开发的后台管理系统框架
 
-## 计划
+## 简介
+
+### 技术栈
+
+- 后端: nestjs + TypeScript
+- 前端: React18 + TypeScript
+
+## 计划&进度
 
 - [ ] 登录
 - [ ] 权限管理
