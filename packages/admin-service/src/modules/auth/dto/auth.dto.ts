@@ -10,6 +10,16 @@ export class AuthDto {
     title: '密码'
   })
   password: string;
+
+  @ApiProperty({
+    title: '是否自动登录'
+  })
+  autoLogin: boolean;
+
+  @ApiProperty({
+    title: '登录类型'
+  })
+  type: 'account' | 'mobile';
 }
 
 export class AuthVo {

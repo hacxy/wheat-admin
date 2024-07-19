@@ -8,6 +8,9 @@ bootstrap(AppModule, {
     version: '1.0.0',
     license: ['MIT']
   },
+  beforeAppListen(app) {
+    app.setGlobalPrefix('api');
+  },
   jwtVerifyOptions: {
     secret: process.env.JWT_SECRET
   }
