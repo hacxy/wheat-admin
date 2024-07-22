@@ -1,22 +1,57 @@
-# Wheat Admin
+# Ant Design Pro
 
-全栈使用 TypeScript 开发的后台管理系统框架
+This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
 
-## 简介
+## Environment Prepare
 
-### 技术栈
+Install `node_modules`:
 
-- 后端: nestjs + TypeScript
-- 前端: React18 + TypeScript
+```bash
+npm install
+```
 
-## 计划&进度
+or
 
-- [ ] 登录
-- [ ] 权限管理
-- [ ] 菜单管理
-- [ ] 用户管理
-- [ ] 角色管理
-- [ ] 国际化
-- [ ] 图表组件能力
-- [ ] 富文本编辑器
-- [ ] 文件上传
+```bash
+yarn
+```
+
+## Provided Scripts
+
+Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
+
+Scripts provided in `package.json`. It's safe to modify or add additional script:
+
+### Start project
+
+```bash
+npm start
+```
+
+### Build project
+
+```bash
+npm run build
+```
+
+### Check code style
+
+```bash
+npm run lint
+```
+
+You can also use script to auto fix some lint error:
+
+```bash
+npm run lint:fix
+```
+
+### Test code
+
+```bash
+npm test
+```
+
+## More
+
+You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
