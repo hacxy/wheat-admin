@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "serve:dev": "pnpm -dir=./packages/admin-service run dev",
+    "serve:build": "pnpm -dir=./packages/admin-service run build",
+    "serve:start": "pnpm -dir=./packages/admin-service run start:prod",
     "web:dev": "pnpm -dir=./packages/admin-web run start",
+    "web:build": "pnpm -dir=./packages/admin-web run build",
     "openapi": "pnpm -dir=./packages/admin-web run openapi"
   },
   "keywords": [],
