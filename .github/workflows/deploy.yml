@@ -39,7 +39,7 @@ jobs:
           password: ${{ secrets.SSH_PASSWORD }}
           source: "packages/admin-service/dist,packages/admin-service/prisma,packages/admin-service/package.json,packages/admin-service/pnpm-lock.yaml,packages/admin-service/ecosystem.config.js"
           target: "/${{secrets.SSH_USERNAME}}/Projects/.wheat-admin-service_temp/"
-          strip_components: 3
+          strip_components: 2
           rm: true
 
       - name: 执行远程脚本命令
